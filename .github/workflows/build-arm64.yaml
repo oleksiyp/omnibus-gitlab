@@ -43,4 +43,4 @@ jobs:
           context: docker
           push: true
           platforms: linux/arm64
-          tags: ghcr.io/${{ github.repository_owner }}/gitlab:17.11.2,ghcr.io/${{ github.repository_owner }}/gitlab:latest
+          tags: ghcr.io/${{ github.repository_owner }}/gitlab:17.11.2-ce,ghcr.io/${{ github.repository_owner }}/gitlab:latest
